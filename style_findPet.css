@@ -1,0 +1,149 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #90a398;
+    margin: 0;
+    padding: 0;
+    animation: fadeIn 1s ease-in;
+    }
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Find Pet Container */
+.find-pet-container {
+    text-align: center;
+    margin: 50px auto;
+    animation: slideDown 1s ease-out;
+}
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Buttons */
+.pet-buttons {
+    margin: 20px 0;
+}
+
+.btn {
+    background-color: #ff5733;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+    display: inline-block;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff7645;
+    transform: scale(1.05);
+}
+
+/* Pet List */
+.pet-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+/* Pet Card */
+.pet-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 20px;
+    width: 320px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    animation: cardFadeIn 1s ease-out;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+@keyframes cardFadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.pet-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Pet Image */
+.pet-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.pet-card img:hover {
+    transform: scale(1.1);
+}
+
+/* Pet Info */
+.pet-card h3 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #333;
+    animation: textFadeIn 0.7s ease;
+}
+
+@keyframes textFadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.pet-card p {
+    font-size: 16px;
+    color: #777;
+}
+
+/* Button inside Pet Card */
+.pet-card a.btn {
+    margin-top: 10px;
+    padding: 8px 16px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.pet-card a.btn:hover {
+    background-color: #ff7645;
+    transform: scale(1.05);
+}

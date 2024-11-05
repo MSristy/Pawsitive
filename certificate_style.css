@@ -1,0 +1,86 @@
+.certificate-section {
+    margin-top: 30px;
+    background-color: #f3f3f3;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Certificate Main Container with Background */
+.certificate {
+    padding: 30px;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2); /* Soft gradient background */
+    border: 4px solid #1e88e5;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    text-align: center;
+    width: 800px;
+    font-family: 'Georgia', serif;
+}
+
+/* Logo Styling */
+.certificate img {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+/* Main Heading - Certificate Title */
+.certificate h1 {
+    color: #1e88e5;
+    font-size: 34px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Subheading - Certify Message */
+.certificate p.certify {
+    color: #333;
+    font-size: 22px;
+    margin: 15px 0;
+    font-style: italic;
+}
+
+/* Adopter's Name */
+.certificate h2 {
+    color: #4caf50;
+    font-size: 28px;
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+/* Certificate Number and Date */
+.certificate .details {
+    color: #555;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.certificate .details p {
+    margin: 10px 0;
+}
+
+/* Thank You Message */
+.certificate p.thanks {
+    color: #ff9800;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 30px;
+}
+
+/* Signature/Bottom Text Styling */
+.certificate .bottom-text {
+    font-size: 16px;
+    color: #888;
+    margin-top: 30px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body Background */
+body {
+    background: linear-gradient(135deg, #74ebd5, #acb6e5); /* Vibrant gradient background for the page */
+    padding: 20px;
+}

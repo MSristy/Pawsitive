@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+h2 {
+    color: #2c3e50;
+    text-align: center;
+}
+
+h3 {
+    color: #2980b9;
+    margin-top: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #34495e;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="text"]:focus {
+    border-color: #2980b9;
+}
+
+button {
+    background-color: #27ae60;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #219653;
+}
+
+.pets-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pet-card {
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    width: calc(33% - 20px);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.pet-card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.certificate-section {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #d5f5e3;
+    border: 1px solid #82e0aa;
+    border-radius: 5px;
+}
+
+.certificate {
+    border: 1px solid #2980b9;
+    border-radius: 5px;
+    padding: 20px;
+    background: white;
+    text-align: center;
+}
+
+.certificate img {
+    max-width: 100px;
+}
+
+.certify {
+    font-weight: bold;
+    color: #27ae60;
+}
+
+.details p {
+    margin: 5px 0;
+}
+
+.thanks {
+    margin-top: 20px;
+    font-style: italic;
+    color: #2980b9;
+}
+
+.bottom-text {
+    margin-top: 20px;
+    color: #7f8c8d;
+    font-size: 12px;
+}

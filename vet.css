@@ -1,0 +1,205 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+
+.vet-system {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Veterinary Profiles Section */
+.vet-profiles {
+    background-color: #707e61;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.vet-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.vet-card {
+    background-color: #d4e4b6;
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.vet-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.vet-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Appointment Form Section */
+.appointment-form {
+    background-color: #e3f2fd;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.appointment-form input, .appointment-form select, .appointment-form button {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.appointment-form button {
+    background-color: #32a852;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.appointment-form button:hover {
+    background-color: #aef3c1;
+}
+
+/* Park Suggestions Section */
+.park-suggestions {
+    background-color: #e5f5d4;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.park-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.park-card {
+    background-color: #f5d8d8;
+    border: 1px solid #f3dcdc;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.park-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.park-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.park-card h3 {
+    color: #32a852;
+    margin: 10px 0;
+}
+
+.park-card p a {
+    color: #1e88e5;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.park-card p a:hover {
+    color: #1565c0;
+    text-decoration: underline;
+}
+
+/* Pet Competitions Section */
+.pet-competitions {
+    background-color: #f1f8e9;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.competition-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.competition-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.competition-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.competition-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.competition-info h3 {
+    color: #32a852;
+    margin: 10px 0;
+}
+
+.competition-info p a {
+    color: #1e88e5;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.competition-info p a:hover {
+    color: #1565c0;
+    text-decoration: underline;
+}
+
+.know-more-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #1e88e5;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.know-more-btn:hover {
+    background-color: #1565c0;
+}
